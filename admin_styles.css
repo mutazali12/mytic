@@ -1,0 +1,103 @@
+/* الخط */
+body {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* رأس الصفحة */
+header {
+    background-color: #34495e;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #ecf0f1;
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ecf0f1;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* المحتوى الرئيسي */
+main {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.no-bookings {
+    text-align: center;
+    font-size: 18px;
+    color: #e74c3c;
+}
+
+/* الجدول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #eaf2f8;
+}
+
+/* ذيل الصفحة */
+footer {
+    background-color: #34495e;
+    padding: 10px 0;
+    text-align: center;
+    color: #ecf0f1;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
